@@ -5,47 +5,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css"
 </head>
 
 <body>
     
-
     <div class="container">
 
         <nav class="navbar navbar-light bg-light navbar-expand-lg">
 
             <a class="navbar-brand" href="#">Alexander Jones</a>
 
-            <ul>
-
-                <li>About</li>
-
-                <li>Portfolio</li>
-
-                <li>Contact</li>
-                
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
             </ul>
         
         </nav>
 
+        <br>
+
         <div class="row">
 
             <div class="col-md-4">
-                <img src="assets/images/me_portrait.jpg" class="img-fluid" alt="Alexander Jones">
+                <img src="assets/images/me_portrait.jpg" class="img-fluid img-thumbnail" alt="Alexander Jones">
             </div>
 
             <div class="col-md-8">
-                <p>I am a budding full-stack developer with an interest in all things in the web development world. This website will be used to showcase some of the projects that I complete throughout my burgeoning career as a full-stack developer. Some of my other interests and hobbies include playing and producing music, spending time with my family, and brazilian jiu-jitsu.
 
-                    I am constantly seeking to improve and further my knowledge in the field of web development. I am a creative, detail-oriented person at heart.
-                    
-                    I look forward to showing you all what I am capable of creating. My contact information is located on the contact page, please feel free to reach out.
-                </p>
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">About Me</h5>
+
+                        <p class="card-text">I am a budding full-stack developer with an interest in all things in the web development world. This website will be used to showcase some of the projects that I complete throughout my burgeoning career as a full-stack developer. Some of my other interests and hobbies include playing and producing music, spending time with my family, and brazilian jiu-jitsu.
+
+                            I am constantly seeking to improve and further my knowledge in the field of web development. I am a creative, detail-oriented person at heart.
+                            
+                            I look forward to showing you all what I am capable of creating. My contact information is located on the contact page, please feel free to reach out.
+                        </p>
+
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
 
-        <div class="row"></div>
+        <div class="row">
+
+            <div class="col-sm-12">
+                <footer class="page-footer font-small">
+                    <h5 class="text-center">Copyright</h5>
+                </footer>
+            </div>
+
+        </div>
 
     </div>
 
