@@ -25,8 +25,8 @@ nav {
 }
 
 .main-content {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 40px;
+    padding-bottom: 40px;
 }
 
 .about-me-text {
@@ -46,3 +46,50 @@ nav {
     background-color: #B4BBE9;
 }
 
+.contact-header {
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid #69709d;
+    padding-bottom: 10px;
+}
+
+.portfolio-header {
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid #69709d;
+    padding-bottom: 10px;
+}
+
+.contact-form {
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact-card {
+    background-color: #B4BBE9;
+    border: 1px solid #69709d;
+}
+
+.portfolio-card {
+    background-color: #B4BBE9;
+    border: 1px solid #69709d;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.portfolio-item {
+    background-color: #B4BBE9;
+    border: 1px solid #69709d;
+    margin-bottom: 30px;
+}
+
+.portfolio-item-name {
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 2px solid #69709d;
+    font-weight: bold;
+}
+
+.portfolio-item-desc {
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn:hover {
+    background-color: #69709d;
+}
