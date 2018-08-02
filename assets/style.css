@@ -5,6 +5,7 @@ html {
 
 body {
     background-image: url(../assets/images/qbkls.png);
+    padding-bottom: 100px;
 }
 
 nav {
@@ -24,16 +25,12 @@ nav {
     font-family: 'Raleway', sans-serif;
 }
 
-.main-content {
-    margin-top: 40px;
-    padding-bottom: 40px;
-}
-
 .about-me-text {
     line-height: 200%;
     border: 1px solid #69709d;
     font-family: 'Raleway', sans-serif;
     background-color: #B4BBE9;
+    margin-top: 40px;
 }
 
 .about-me-header {
@@ -44,6 +41,7 @@ nav {
 .me-portrait {
     border: 1px solid #69709d;
     background-color: #B4BBE9;
+    margin-top: 40px;
 }
 
 .contact-header {
@@ -65,25 +63,27 @@ nav {
 .contact-card {
     background-color: #B4BBE9;
     border: 1px solid #69709d;
+    margin-top: 40px;
 }
 
 .portfolio-card {
     background-color: #B4BBE9;
     border: 1px solid #69709d;
-    margin-bottom: 30px;
+    margin-top: 40px;
     font-weight: bold;
 }
 
 .portfolio-item {
     background-color: #B4BBE9;
     border: 1px solid #69709d;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .portfolio-item-name {
     font-family: 'Raleway', sans-serif;
     border-bottom: 2px solid #69709d;
     font-weight: bold;
+    padding-bottom: 5px;
 }
 
 .portfolio-item-desc {
@@ -91,5 +91,9 @@ nav {
 }
 
 .btn:hover {
+    background-color: #69709d;
+}
+
+.btn:active {
     background-color: #69709d;
 }
