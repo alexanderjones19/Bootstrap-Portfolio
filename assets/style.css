@@ -14,6 +14,11 @@ nav {
     background-color: #B4BBE9;
 }
 
+.logo-name {
+    font-size: x-large;
+    font-weight: bold;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
